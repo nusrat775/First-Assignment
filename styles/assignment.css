@@ -209,3 +209,13 @@ nav ul li{
 
 
 }
+.footer-content h1{
+    font-size: 100px; 
+    font-weight: bold;
+    color: #4E47FF;
+}
+.footer-content h1{
+.footer-about{
+    display: flex;
+    font-style: none;
+}
