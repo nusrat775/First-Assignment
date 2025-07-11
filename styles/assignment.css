@@ -5,6 +5,9 @@
   
   font-style: normal;
 }
+body{
+    margin: 0 auto;
+}
 .header{
     background-image: url('../Assets/Hero-bg.png');
     padding: 0 0 200px;
@@ -79,16 +82,17 @@ nav ul li{
 
 }
 .oho{
-    
+    text-align: center;
     font-size: 38px;
     font-weight: bold;
     color: #252432;
+    justify-content: center;
     
 }
 .tintin{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     gap: 158px;
 }
 .h-size{
@@ -103,3 +107,24 @@ nav ul li{
     font-size: 20px;
     color: #4a494e;
 }
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+.card-section{
+    justify-content: space-around;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+    
+}
+.card{
+    width: 366px;
+    padding: 24px 24px;
+    
+}
+
