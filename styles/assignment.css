@@ -114,6 +114,8 @@ nav ul li{
 }
 .card-section{
     justify-content: space-around;
+    
+    
 }
 .all{
     display: flex;
@@ -127,4 +129,83 @@ nav ul li{
     padding: 24px 24px;
     
 }
+.focus{
+    font-size: 50;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.small{
+    text-align: center;
+}
+.middle{
+    justify-content: space-around;
+}
 
+/* Contact Section Styling */
+.contact-section {
+  background-color:  #e5eaf5;
+  padding: 60px 20px;
+}
+
+.contact-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-left h2 {
+  font-size: 97px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right label {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px  #D6DDED;
+  font-size: 20px;
+  font-weight: regular;
+}
+
+
+.contact-right textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-button {
+  background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16;
+    border: none;
+    color: #FFFFFF;
+    padding: 19px 101px;
+    border-radius: 10px;
+    
+
+
+}
