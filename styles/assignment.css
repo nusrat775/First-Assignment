@@ -7,14 +7,14 @@
 }
 .header{
     background-image: url('../Assets/Hero-bg.png');
-    padding: 0px 0px 200x;
+    padding: 0 0 200px;
 }
 /*nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0 50px;
 }
 .nav-title{
     font-weight:900;
@@ -41,4 +41,30 @@ nav ul li{
 .main-content h1{
     font-size: 65;
     font-weight: bold;
+}
+.section-a{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 50px 159px 0 141px;
+
+}
+.text{
+    max-width: 50%;
+    
+    max-width: 517px;
+}
+.text h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 24px;
+    font-weight: regular;
+    color: rgb(168, 169, 172);
+}
+.webflow-picture{
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
 }
